@@ -22,6 +22,7 @@ public class Basic {
         System.out.println("answer " + answer);
         System.out.println("answerLong " + answerLong);
         System.out.println("answerFloat " + answerFloat);
+        System.out.println("x%2 " + x%3);
 
 
 

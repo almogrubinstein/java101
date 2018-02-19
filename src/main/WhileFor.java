@@ -9,6 +9,13 @@ public class WhileFor {
 //        while (false)
 //            System.out.println("Hello, World!");
 
+        //print each digit of the number 1237653
+        int t = 123654;
+        while (t>0){
+            System.out.println(t%10);
+            t=t/10;
+        }
+
         int i, j, k;
         for (i = 0; i <= 6; i++) {
             for (j = 1; j <= 7; j++)
@@ -33,5 +40,7 @@ public class WhileFor {
                 System.out.print("*");
             System.out.println("");
         }
+
+
     }
 }
